@@ -1,0 +1,161 @@
+
+#header{
+    background: url("../../assets/black-bg-134.png");
+    background-repeat: no-repeat;
+  
+    
+width: 100%;
+
+}
+.vape_bg{
+    background: url("../../assets/vape-header-bg.png");
+    width: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+}
+
+@media (max-width:1024px){
+#header{
+    background: url("../../assets/black-bg-134.png");
+    background-size: cover;
+
+}
+}
+
+@media (max-width:780px){
+    .header-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+   
+    }
+    .left_content{
+        padding-top:3rem ;
+        text-align: center;
+        width:100%;
+        margin: 0 auto;
+padding-bottom:3rem;
+    }
+    .vape,.vape_bg{
+        margin: 0 auto;
+        width: 320px;
+    }
+    .green-text{
+        justify-content: center;
+    }
+    .cards{
+        width: 100%;
+
+    }
+}
+
+
+
+@media (max-width:450px){   
+      .vape_bg{
+display: none;
+      }
+    
+}
+
+.vape{animation: bounce 1.92s infinite ;
+  -webkit-animation: bounce 1.92s infinite alternate;
+
+}
+  @keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-20px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-20px);
+    }
+  }
+.CTA{
+    
+    cursor: pointer !important;
+    box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 3.25rem;
+    text-align: center;
+    text-shadow: none !important;
+    line-height: 22px;
+    transition: all .45s;
+    border: none;
+    background: var(--btn-bg-color);
+    font-family: "Raleway", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #FA4F09;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #FA4F09;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 10px 20px 0px rgba(255, 83.99999999999999, 83.99999999999999, 0.24);
+    padding: 20px 50px 20px 50px;
+}
+.CTA:hover{
+    box-shadow: 0px 10px 20px 0px rgba(255, 83.99999999999999, 83.99999999999999, 0.24);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+ 
+}
+.card-one,.card-two,.card-three{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 2.3rem;
+  
+align-items: center;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #3A3A44;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 40px 20px 40px 20px;
+    border-radius: 40px 40px 40px 40px;
+}
+.card-three:hover{
+    background-color: #3A3A44;
+    box-shadow: 0px 15px 35px 0px rgb(10 10 12 / 32%);
+}
+.card-one:hover{
+    background-color: #3A3A44;
+    box-shadow: 0px 15px 35px 0px rgb(10 10 12 / 32%);
+}
+.card-two{
+    background-color: #3A3A44;
+    box-shadow: 0px 15px 35px 0px rgb(10 10 12 / 32%);
+}
+.card-title{
+    font-size: 22px ;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.card-subtitle{
+    color:gray;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    margin-bottom: 0.8rem;
+   
+}
+.card-link{
+    font-weight: 800;
+    letter-spacing: 1.08px;
+    color:#36AF8A;
+}

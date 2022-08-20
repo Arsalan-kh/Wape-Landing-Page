@@ -1,0 +1,31 @@
+.section1{
+    background: url("../../assets/bg-12-2d.png");
+    padding-top: 12rem;
+    background-size: cover;
+    height: auto;
+
+    
+}
+.vape-device-bg{
+    background: url("../../assets/vape-devices-bg.png");
+width: 600px;
+    height: auto;
+    background-size: contain;
+background-repeat: no-repeat;
+
+
+}
+
+.fs-black{
+    color: #FFFFFF;
+    
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 1.5em;
+}
+@media (max-width:780px){
+.vape-device-bg{
+    margin: 0 auto;
+    width: 320px;
+}
+}

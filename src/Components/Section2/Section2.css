@@ -1,0 +1,36 @@
+.section2-bg{
+    /* background: url("../../assets/bg-12-2d.png");
+    background-size: cover;
+    height: auto; */
+    background-color: #27272E;;
+    padding: 6rem 9rem;
+}
+
+.section2-shop-bg{
+    background: url("../../assets/vaping-features-dark.png");
+    background-size: contain;
+background-repeat: no-repeat;
+  
+}
+
+@media (max-width:760px){
+    .section2-shop-bg{
+        margin-top: 4.4rem;
+    }
+    .section2_heading{
+        font-size: 0.2rem;
+        text-align: center;
+        width: auto;
+    }
+    .section2-bg{
+    padding: 2rem 0;
+        margin: 0 auto;
+    
+    }
+    .section2-items{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+}
